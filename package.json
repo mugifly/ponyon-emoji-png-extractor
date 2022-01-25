@@ -1,0 +1,18 @@
+{
+  "name": "ponyon-emoji-png-generator",
+  "version": "1.0.0",
+  "description": "Emoji PNG extractor for Android Lollipop style emojis",
+  "main": "generator.js",
+  "scripts": {
+    "start": "node generator.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mugifly",
+  "license": "MIT",
+  "dependencies": {
+    "emoji-name-map": "^1.2.7",
+    "request": "^2.83.0",
+    "unzip": "^0.1.11",
+    "unzip-stream": "^0.3.1"
+  }
+}
